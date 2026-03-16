@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Receitas</title>
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Poppins:wght@300;400;500&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <header>
+        <h1>NutriFit</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="receitas.html">Receitas</a>
+        </nav>
+    </header>
+    <section class="Receitas">
+        <h2>Nossas Receitas</h2>
+
+        <div class="filtros">
+            <button onclick="filtrar('todas')">Todas</button>
+            <button onclick="filtrar('emagrecimento')">Emagrecimento</button>
+            <button onclick="filtrar('massa')">Ganho de massa</button>
+        </div>
+
+        <div class="receitas-cards">
+            <div class="card" data-categoria="massa">
+                <img src="imagens/omelete.jpg" alt="Omelete">
+                <h3>Omelete com Vegetais</h3>
+                <p>Tempo: 30min</p>
+                <button>Ver Receita</button>
+            </div>
+            <div class="card" data-categoria="massa">
+                <img src="imagens/panqueca.jpg" alt="Panqueca de Proteina">
+                <h3>Panqueca de Proteina</h3>
+                <p>Tempo: 30min</p>
+                <button>Ver Receita</button>
+            </div>
+
+            <div class="card" data-categoria="massa">
+                <img src="imagens/shake.jpg" alt="Shake de Banana">
+                <h3>Shake de Banana</h3>
+                <p>Tempo: 20min</p>
+                <button>Ver Receita</button>
+            </div>
+
+            <div class="card" data-categoria="emagrecimento">
+                <img src="imagens/SaladaQuinoa.jpeg" alt="Salada de Quinoa">
+                <h3>Salada de Quinoa</h3>
+                <p>Tempo: 30min</p>
+                <button>Ver Receita</button>
+            </div>
+
+            <div class="card" data-categoria="emagrecimento">
+                <img src="imagens/sopa_2.jpg" alt="Sopa de Legumes com Frango">
+                <h3>Sopa de Legumes com Frango</h3>
+                <p>Tempo: 1h</p>
+                <button>Ver Receita</button>
+            </div>
+
+            <div class="card" data-categoria="emagrecimento">
+                <img src="imagens/wrap.jpg" alt="Wrap de Frango">
+                <h3>Wrap de Frango</h3>
+                <p>Tempo: 20min</p>
+                <button>Ver Receita</button>
+            </div>
+
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>

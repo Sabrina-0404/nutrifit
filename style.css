@@ -74,3 +74,52 @@ transition:0.3s
 .btn:hover{
 background: #4CAF50;
 }
+
+.receitas{
+    padding:60px 20px;
+text-align:center;
+}
+
+.filtros{
+margin:30px 0;
+}
+
+.filtros button{
+padding:10px 20px;
+margin:10px;
+border:none;
+background:#66BB6A;
+color:white;
+border-radius:5px;
+cursor:pointer;
+}
+
+.container-receitas{
+display:grid;
+grid-template-columns:repeat(auto-fit, minmax(250px,1fr)); /*define as colunas e auto-fit o navegador decide qnts colunas cabem*/
+gap:30px;
+padding:20px;
+}
+
+.card{
+background:white;
+border-radius:10px;
+box-shadow:0 4px 10px rgba(0,0,0,0.1);
+padding:20px;
+text-align:center;
+}
+
+.card img{
+width:100%;
+border-radius:10px;
+}
+
+.card button{
+margin-top:10px;
+padding:10px 20px;
+border:none;
+background:#1B5E20;
+color:white;
+border-radius:5px;
+cursor:pointer;
+}
